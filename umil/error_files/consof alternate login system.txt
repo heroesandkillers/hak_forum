@@ -1,0 +1,14 @@
+ConSof Alternate Login System
+PHP Version: 5.3.3-7+squeeze19
+DBMS: MySQL(i) 5.1.73-1
+phpBB3 Version: 3.0.11
+
+Adding new config variable: al_fb_login
+ERROR: Config variable al_fb_login already exists.
+
+Adding new config variable: al_wl_login
+ERROR: Config variable al_wl_login already exists.
+
+Adding new config variable: al_oi_login
+ERROR: Config variable al_oi_login already exists.
+
