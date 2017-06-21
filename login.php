@@ -29,10 +29,8 @@ $default = false;
 
 //LOGIN EN EL JUEGO
 global $user;
-echo json_encode($user);
-$user->data['user_id'] = json_encode($user);
 //if ($user->data['user_id'] && $user->data['user_id'] > 1) {
-if (isset($user->data['user_id']) && !empty($user->data['user_id'])) {
+if (isset($user->data['user_id'])) {
     echo "<script>"
     . "console.log('loged with: " . $user->data['user_id'] . "');"
     . "parent.gameIn(" . $user->data['user_id'] . ",'" . $user->data['user_password'] . "');"
