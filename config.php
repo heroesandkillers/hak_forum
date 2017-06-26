@@ -9,10 +9,10 @@ if(empty($MYSQL_DATABASE)){
     $MYSQL_DATABASE = "hak";
 }
 if(empty($MYSQL_USERNAME)){
-    $MYSQL_USERNAME = "root";
+    $MYSQL_USERNAME = "hak";
 }
 if(empty($MYSQL_PASSWORD)){
-    $MYSQL_PASSWORD = "";
+    $MYSQL_PASSWORD = "&MOVy1PV";
 }
 
 
