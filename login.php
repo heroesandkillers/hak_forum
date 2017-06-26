@@ -30,7 +30,7 @@ $default = false;
 //LOGIN EN EL JUEGO
 global $user;
 //if ($user->data['user_id'] && $user->data['user_id'] > 1) {
-if (isset($user->data['user_id']) && !empty($user->data['user_id'])) {
+if (isset($user->data['user_id'])) {
     echo "<script>"
     . "console.log('loged with: " . $user->data['user_id'] . "');"
     . "parent.gameIn(" . $user->data['user_id'] . ",'" . $user->data['user_password'] . "');"
