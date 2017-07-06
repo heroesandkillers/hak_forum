@@ -3,9 +3,8 @@ git clone https://trollderiu@bitbucket.org/trollderiu/hak_forum.git /var/www/htm
 
 ```
 
-```
 # ERRORS SOLVING:
-
+```
 #Could not get style data:
 #remove cache folder
 ```
